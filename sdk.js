@@ -246,7 +246,6 @@ VK.prototype.request = function(_method, _requestParams, _response) {
 
     var params = {
         'lang'  : this.options.lang,
-        'v'     : this.options.version,
         'https' : (this.options.https) ? 1 : 0
     };
 
